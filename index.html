@@ -21,6 +21,11 @@ body {
     display: -webkit-box;
     display: flex;
 }
+.f--layout--1 {
+    min-width: 0;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
 .p--r {
     position: relative;
 }
@@ -124,7 +129,7 @@ button, input, optgroup, select, textarea {
     <h3>Liz James Fitness and Nutritional Coaching</h3>
   </div>
   <p></p>
-  <div class="c--box">
+  <div class="c--box f--layout--1">
     <span>Contact Me</span>
   </div>
   <div class=""><button class="b--contact">Send Message</button></div>
